@@ -19,6 +19,12 @@ connection.once('open', ()=>{
     console.log("Database Connection OK!");
 });
 
+const usersRouter = require('./routes/users');
+const itemRouter = require('./routes/item');
+
+app.use('/users', usersRouter);
+app.use('/items', itemRouter);
+
 app.listen(port, () =>{
     console.log(`Server is running: ${port}`);
 });
