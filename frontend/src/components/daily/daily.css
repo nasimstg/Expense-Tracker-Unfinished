@@ -1,0 +1,16 @@
+.card{
+    justify-content: left;
+    line-height: 10px;
+    box-shadow: 15px 15px 25px -5px #b3b3b3;
+    padding: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all .3s ease-in;
+}
+.card:hover, .card:active{
+    border: 1px solid #b3b3b3;
+}
+
+.right{
+    align-items: center;
+}   

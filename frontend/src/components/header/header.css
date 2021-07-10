@@ -1,0 +1,11 @@
+.nav{
+    padding: 0 25px;
+}
+.nav h1{
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.nav-icon{
+    cursor: pointer;
+    font-size: 32px !important;
+}
